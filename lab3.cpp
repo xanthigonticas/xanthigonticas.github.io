@@ -69,7 +69,11 @@ class Isoform {
     public:
 
     Sequence sequence;
-    string
+    Sequence()
+        : type("Unknown"), data("Unknown") {
+            cout << "Sequence created" << endl;
+        }
+    
 
 };
 
