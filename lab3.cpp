@@ -52,6 +52,11 @@ class Sequence {
 
     public:
 
+    Sequence()
+        : type("Unknown"), data("Unknown") {
+            cout << "Sequence created" << endl;
+        }
+
     string type;
     string data;
 
@@ -69,11 +74,9 @@ class Isoform {
     public:
 
     Sequence sequence;
-    Sequence()
-        : type("Unknown"), data("Unknown") {
-            cout << "Sequence created" << endl;
-        }
-    
+    Isoform() {
+        : cout << "Isoform created" << endl;
+    }
 
 };
 
