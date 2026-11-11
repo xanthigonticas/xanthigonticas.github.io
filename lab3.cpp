@@ -1,6 +1,5 @@
 #include <iostream>
 #include <string>
-#include <cmath>
 
 using namespace std; 
 
@@ -15,13 +14,24 @@ class Sequence {
         cout <<"The type is" << type << "and the sequence is" << data << enld;
     }
 
-    void length() {
-        
+    int length() {
+        return data.length(); 
     }
-}
+};
 
+class Isoform {
+
+    public:
+
+    Sequence sequence;
+    string
+
+};
 
 int main() {
+
+    cout << "-- Creating Sequence and isoforms --" << endl;
+
 
     return 0;
 }
